@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 import { Solver } from "2captcha-ts";
-const solver = new Solver('<Your 2captcha api key>');
+const solver = new Solver('<Your 2captcha APIKEY>');
 
 ;(async () => {
   const browser = await puppeteer.launch({
