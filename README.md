@@ -1,1 +1,1 @@
-# solving-yandex-smart-captcha-using-peppeteer
+# Пример автоматизации решения капчи Yandex SmartCaptcha от Яндекса с использованием библиотеки Puppeteer
