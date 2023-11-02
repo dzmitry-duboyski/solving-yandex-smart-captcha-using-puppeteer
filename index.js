@@ -50,7 +50,9 @@ const solver = new Solver('<Your 2captcha APIKEY>');
 
   // Нажать на кнопку 'Submit', для проверки решения капчи
   // Click on the 'Submit' button to check the captcha solution
-  await page.click("#smartcaptcha-demo-submit");
+  page.evaluate(() => {
+    document.querySelector("#smartcaptcha-demo-submit").click()
+  });
 
   await page.waitForSelector(".greeting");
   console.log("Капча успешно решена!!!");
