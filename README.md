@@ -92,7 +92,16 @@ const solver = new Solver("<Your 2captcha APIKEY>");
 
 Исходный код примера доступен в файле [index.js](/index.js)
 
+> [!IMPORTANT]  
+> Если вам необходимо решать капчу яндекса которую необходимо кликать, то вам необходимо использовать метод [Coordinates API v1](https://rucaptcha.com/api-rucaptcha#coordinates) \ [Coordinates API v2](https://rucaptcha.com/api-docs/coordinates), подробнее описано в [статье](https://captchaforum.com/threads/reshenie-kapchi-na-servisax-jandeks.4351/).
+
 ## Дополнительные ссылки:
 
-- [Документация по отправке Yandex SmartCaptcha в сервис 2captcha.com](https://2captcha.com/2captcha-api#yandex?from=16653706).
-- [Как обойти Yandex SmartCaptcha](https://2captcha.com/p/yandex-captcha-bypass-service/?from=16653706)
+<!-- - [Документация по отправке Yandex SmartCaptcha в сервис 2captcha.com](https://2captcha.com/2captcha-api#yandex?from=16653706). -->
+- [Документация по отправке Yandex SmartCaptcha в сервис 2captcha.com (web.archive)](https://web.archive.org/web/20230917233148/https://rucaptcha.com/api-rucaptcha#yandex)
+<!-- - [Как обойти Yandex SmartCaptcha](https://2captcha.com/p/yandex-captcha-bypass-service/?from=16653706) -->
+- [Как обойти Yandex SmartCaptcha (web.archive)](https://web.archive.org/web/20230320212755/https://rucaptcha.com/p/yandex-captcha-bypass-service)
+
+- [Статья - Решение капчи на сервисах Яндекс кликами](https://captchaforum.com/threads/reshenie-kapchi-na-servisax-jandeks.4351/)
+
+- [Метод Coordinates](https://rucaptcha.com/api-docs/coordinates)
