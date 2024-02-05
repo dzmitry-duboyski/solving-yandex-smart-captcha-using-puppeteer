@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/dzmitry-duboyski/solving-yandex-smart-captcha-using-puppeteer#readme",
   "dependencies": {
-    "2captcha-ts": "^2.0.0",
+    "2captcha-ts": "^2.3.3",
     "puppeteer": "^19.11.1"
   }
 }
