@@ -105,3 +105,5 @@ const solver = new Solver("<Your 2captcha APIKEY>");
 - [Статья - Решение капчи на сервисах Яндекс кликами](https://captchaforum.com/threads/reshenie-kapchi-na-servisax-jandeks.4351/)
 
 - [Метод Coordinates](https://rucaptcha.com/api-docs/coordinates)
+  
+- [Решение Smart Captcha](https://captchaforum.com/threads/reshenie-smart-captcha.5695/)
