@@ -2,7 +2,7 @@
 
 ## Описание
 
-В этом примере показывается как автоматизировать решение капчи Yandex SmartCaptcha на демо странице капчи https://captcha-api.yandex.ru/demo. Для автоматизации используется библиотека [Puppeteer](https://pptr.dev/) и сервис решения капч [2captcha.com](https://2captcha.com/?from=16653706). Для корректной работы примера нужен `APIKEY`, для этого необходимо иметь аккаунт в сервисе [2captcha.com](https://2captcha.com/?from=16653706), `APIKEY` отображается в личном кабинете.
+В этом примере показывается как автоматизировать решение капчи Yandex SmartCaptcha на демо странице капчи https://captcha-api.yandex.ru/demo. Для автоматизации используется библиотека [Puppeteer](https://pptr.dev/) и сервис решения капч [2captcha.com]. Для корректной работы примера нужен `APIKEY`, для этого необходимо иметь аккаунт в сервисе [2captcha.com], `APIKEY` отображается в личном кабинете.
 
 ## Установка
 
@@ -18,7 +18,7 @@
 
 Установить ваш `APIKEY` в файле [./index.js#L3](./index.js#L3)
 
-> `APIKEY` указан в личном кабинете аккаунта [2captcha.com](https://2captcha.com/?from=16653706). Перед копированием `APIKEY`, проверьте что в вашем аккаунте выбрана роль **"разработчик"**.
+> `APIKEY` указан в личном кабинете аккаунта [2captcha.com]. Перед копированием `APIKEY`, проверьте что в вашем аккаунте выбрана роль **"разработчик"**.
 <!-- > Скриншот: -->
 
 ### Запуск
@@ -93,7 +93,7 @@ const solver = new Solver("<Your 2captcha APIKEY>");
 Исходный код примера доступен в файле [index.js](/index.js)
 
 > [!IMPORTANT]  
-> Если вам необходимо решать капчу яндекса которую необходимо кликать, то вам необходимо использовать метод [Coordinates API v1](https://rucaptcha.com/api-rucaptcha#coordinates) \ [Coordinates API v2](https://rucaptcha.com/api-docs/coordinates), подробнее описано в [статье](https://captchaforum.com/threads/reshenie-kapchi-na-servisax-jandeks.4351/).
+> Если вам необходимо решать капчу яндекса которую необходимо кликать, то вам необходимо использовать метод [Coordinates API v1](https://rucaptcha.com/api-rucaptcha#coordinates/?from=16653706) \ [Coordinates API v2](https://rucaptcha.com/api-docs/coordinates/?from=16653706), подробнее описано в [статье](https://captchaforum.com/threads/reshenie-kapchi-na-servisax-jandeks.4351/).
 
 ## Дополнительные ссылки:
 
@@ -104,6 +104,8 @@ const solver = new Solver("<Your 2captcha APIKEY>");
 
 - [Статья - Решение капчи на сервисах Яндекс кликами](https://captchaforum.com/threads/reshenie-kapchi-na-servisax-jandeks.4351/)
 
-- [Метод Coordinates](https://rucaptcha.com/api-docs/coordinates)
+- [Метод Coordinates](https://rucaptcha.com/api-docs/coordinates/?from=16653706)
   
 - [Решение Smart Captcha](https://captchaforum.com/threads/reshenie-smart-captcha.5695/)
+
+[2captcha.com]: https://2captcha.com/?from=16653706
